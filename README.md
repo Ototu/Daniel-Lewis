@@ -1,2 +1,19 @@
-# Daniel-Lewis
-This project focuses on creating a file browser application designed to efficiently display files and folders from a selected source, whether it’s a hard drive or cloud storage. The application will retrieve and showcase detailed metadata for each file, including attributes like type, size, and last modified date. 
+# AOA-Group-Projt-FileBrowser
+File browser application
+
+Project Structure
+
+
+file_browser/
+    
+        ├── icons/            This is the folder with icons which specify the identity of the files displayed
+    │   ├── folder.png
+    │   ├── text_file.png
+    │   ├── image_file.png
+    │   ├── video_file.png
+    │   └── other_file.png
+    ├── __init__.py          This is an empty file to mark the directory as a package 
+    ├── file_management.py
+    ├── main.py
+    ├── utilities.py
+    ├── sorting.py
